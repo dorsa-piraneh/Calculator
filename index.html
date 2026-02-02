@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="./assets/icons/FontAwesome/css/all.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="shape shape-one"></div>
+        <div class="shape shape-two"></div>
+        <div class="shape shape-three"></div>
+        <div class="calculator">
+          <div class="theme-switcher">
+            <button type="button" class="theme-btn light-btn" data-theme-name="light">
+              <i class="fa-light fa-sun-bright"></i>
+            </button>
+            <button type="button" class="theme-btn dark-btn" data-theme-name="dark">
+               <i class="fa-light fa-moon"></i>
+            </button>
+          </div>
+          <div class="expression-display"></div>
+          <div class="display">0</div>
+
+          <div class="buttons">
+            <button type="button" data-type="clear" data-value="AC">AC</button>
+            <button type="button" data-type="backspace" data-value="backspace"><i class="fa-regular fa-delete-left backspace-icon"></i></button>
+            <button type="button" data-type="percent" data-value="%">&#37;</button>
+            <button type="button" data-type="operator" data-value="/">&divide;</button>
+            <button type="button" data-type="digit" data-value="7">7</button>
+            <button type="button" data-type="digit" data-value="8">8</button>
+            <button type="button" data-type="digit" data-value="9">9</button>
+            <button type="button" data-type="operator" data-value="×">&times;</button>
+            <button type="button" data-type="digit" data-value="4">4</button>
+            <button type="button" data-type="digit" data-value="5">5</button>
+            <button type="button" data-type="digit" data-value="6">6</button>
+            <button type="button" data-type="operator" data-value="-">-</button>
+            <button type="button" data-type="digit" data-value="1">1</button>
+            <button type="button" data-type="digit" data-value="2">2</button>
+            <button type="button" data-type="digit" data-value="3">3</button>
+            <button type="button" data-type="operator" data-value="+">&#43;</button>
+            <button type="button" data-type="digit" data-value="0">0</button>
+            <button type="button" data-type="decimal" data-value=".">&#8226;</button>
+            <button type="button" data-type="equal" data-value="=">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
