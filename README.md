@@ -5,7 +5,7 @@ A modern **Calculator** web application with a clean and responsive interface. U
 ## Live Demo
 
 🔗 **View Online:**  
-https://dorsa-piraneh.github.io/Calculator/
+https://dorsa-piraneh.github.io/calculator/
 
 ## Screenshots
 
@@ -32,7 +32,7 @@ https://dorsa-piraneh.github.io/Calculator/
 ### Option 2: Clone with Git
 
 ```bash
-git clone https://github.com/dorsa-piraneh/Calculator.git
+git clone https://github.com/dorsa-piraneh/calculator.git
 ```
 
 Then open `index.html` in your browser.
@@ -40,7 +40,7 @@ Then open `index.html` in your browser.
 ## Project Structure
 
 ```txt
-Calculator/
+calculator/
 │   index.html
 │   README.md
 │
@@ -76,3 +76,4 @@ Calculator/
 
 **Dorsa Piraneh**  
 GitHub: [https://github.com/dorsa-piraneh](https://github.com/dorsa-piraneh)
+
